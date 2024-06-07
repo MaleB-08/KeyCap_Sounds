@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="KeyCap_Sounds.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:KeyCap_Sounds"
+    Shell.FlyoutBehavior="Disabled"
+    Title="KeyCap_Sounds">
+
+    <ShellContent
+        Title="KeyCap_Sound"
+        
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>

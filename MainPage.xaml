@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KeyCap_Sounds.MainPage"
+             BackgroundColor="#21201E">
+
+    <Shell.TitleView>
+        <Grid
+            BackgroundColor="#21201E">
+            <Label Text="KeyCap_Sound" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   FontSize="Large"
+                   TextColor="White"
+                   FontFamily="CascadiaCode"/>
+        </Grid>
+    </Shell.TitleView>
+    
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Padding="10"
+                FontFamily="CascadiaCode"
+                Text="Upload sound you wish that your keyboard make during clicking."
+                HorizontalOptions="CenterAndExpand"/>
+            <Label
+                Text="File support .mp3, ..."
+                HorizontalOptions="CenterAndExpand"
+                FontFamily="CascadiaCode"/>
+            <Button
+                x:Name="ButtonRemane"
+                Clicked="Button_Clicked"
+                Text="Upload"
+                FontFamily="CascadiaCode"
+                HorizontalOptions="Center"
+                />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
